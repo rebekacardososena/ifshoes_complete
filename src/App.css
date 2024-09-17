@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+.navbar {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+footer .text-center {
+  color: #6c757d;
+}
+/* src/App.css */
+.carousel-item img {
+  height: 400px; /* Ajuste a altura do carrossel */
+}
+
+.bg-danger {
+  background-color: #dc3545 !important; /* Cor vermelha */
+}
+
+.card {
+  transition: transform 0.2s; /* Efeito ao passar o mouse */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta o card ao passar o mouse */
+}
+/* src/App.css */
+.custom-navbar {
+  background: linear-gradient(to right, #ff4d4d, #cccccc, #ffffff); /* Degradê do vermelho ao cinza e branco */
+}
+
+.navbar .nav-link {
+  color: #000; /* Cor do texto dos links */
+}
+
+.navbar .nav-link:hover {
+  color: #ff4d4d; /* Cor do texto ao passar o mouse */
+}
